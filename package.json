@@ -1,0 +1,28 @@
+{
+  "name": "crm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maron4ik/crm.git"
+  },
+  "author": "Maron Alexey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maron4ik/crm/issues"
+  },
+  "homepage": "https://github.com/Maron4ik/crm#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
